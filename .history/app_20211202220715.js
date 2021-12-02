@@ -13,8 +13,8 @@ app.post('/',(req,res)=>{
         
     h1=Number(req.body.height);
     let bmi=w1/(h1*h1)
-    res.send(" your body mass "+bmi)
-   
+    res.send("your bmi of body:"+bmi)
+
 })
 
 app.listen(8000,()=>{
